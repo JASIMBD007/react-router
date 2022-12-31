@@ -2,7 +2,9 @@ body {
   background-color: blanchedalmond;
 }
 .nav {
+  height: 40px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   background-color: rgb(230, 230, 49);
 }
