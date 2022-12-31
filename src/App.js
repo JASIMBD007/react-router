@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
+import FriendDetails from './components/FriendDetails/FriendDetails';
 import Friends from './components/Friends/Friends';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -13,6 +14,7 @@ function App () {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/friends' element={<Friends />}></Route>
+        <Route path='/friend/:friendId' element={<FriendDetails />}>Friend Details</Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
