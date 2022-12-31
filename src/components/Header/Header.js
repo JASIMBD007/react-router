@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div>
             <h1>Welcome To My React Router!</h1>
-            <nav>
+            <nav className='nav'>
                 <CustomLink to="/">Home</CustomLink>
                 <CustomLink to="/friends">Friends</CustomLink>
                 <CustomLink to="/posts">Posts</CustomLink>
